@@ -1,0 +1,8 @@
+appDefaults:
+  nodeVersion: "18"
+  buildCmd: "npm run build"
+  testCmd: "npm test"
+  deployCmd: "./deploy.sh"
+
+notifications:
+  slackEnabled: true
